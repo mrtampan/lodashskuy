@@ -1,0 +1,29 @@
+<html>
+<body>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+<script>
+
+function chunkki(param){
+    console.log(_.chunk(param, 2))
+    
+}
+function concati(){
+    let array = ["dahyun"];
+    let other = _.concat(array, "momo", ["sana"], [["jihyo"]]);
+ 
+    console.log(other);
+}
+// bingkah, pemisah antara array dengan lodash
+chunkki(['jihyo', 'sana', 'dahyun', 'momo']);
+// end bingkah
+
+// nambahin data insert ke array
+concati();
+// end nambahin data
+
+
+</script>
